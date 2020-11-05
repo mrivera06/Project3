@@ -20,9 +20,14 @@ class Main {
     names [13] = "";
     names [14] = "";
 
-    for (String i = 0; i < names.length; i++);
+    for (int i = 15; i < names.length; i++);
     {
-      System.out.println( names[i] );
+
+      Scanner scan = new Scanner(System.in);
+
+      System.out.print("What is your name?");
+      String names = in.nextLine();
+
     }  
 
   }
